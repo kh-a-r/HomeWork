@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 
 def create_html(valutes):
-    text = '<h1>Курс валют</h1>'
+    text = 'Курс валют'
     text += '<table>'
     text += '<tr>'
     for _ in valutes[0]:
